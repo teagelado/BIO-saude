@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioSaúde | Clínica Médica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="logo">Bio<span>Saúde</span></div>
+        <ul>
+            <li><a href="#inicio">Iníco</a></li>
+            <li><a href="#servico">Serviço</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        </nav>
+    </header>
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Cuidando de você com excelência.</h1>
+            <p>Tecnologia de ponta e atendimento humanizado para sua saúde.</p>
+            <a href="#contato" class="btn">Agendar Consulta</a>
+        </div>
+    
+    </section>
+
+    <section id="servico">
+        <h2>Nosso Serviços</h2>
+        <div class="cards">
+    <div class="card">
+        <h3>Cardiologia</h3>
+        <p>Exames preventivos e acompanhamento especializado.</p>
+        
+        <div class="card-detalhes">
+            <h4>Detalhes do Serviço:</h4>
+            <ul>
+                <li>Ecocardiograma</li>
+                <li>Teste Ergométrico</li>
+                <li>Monitoramento 24h</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>Pediatria</h3>
+        <p>Cuidado dedicado para os pequenos.</p>
+        <div class="card-detalhes">
+            <h4>Acompanhamento:</h4>
+            <ul>
+                <li>Puericultura</li>
+                <li>Vacinação</li>
+                <li>Desenvolvimento</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>Clínico Geral</h3>
+        <p>Atendimento completo e diagnósticos.</p>
+        <div class="card-detalhes">
+            <h4>Serviços:</h4>
+            <ul>
+                <li>Check-up Geral</li>
+                <li>Exames de Sangue</li>
+                <li>Receitas e Laudos</li>
+            </ul>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section id="contato">
+    <div class="contato-container">
+        <div class="contato-imagem">
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80" alt="Médico sorrindo">
+        </div>
+
+        <div class="form-container">
+            <h2>Agende sua Visita</h2>
+            <form id="appointment-form">
+                <input type="text" id="nome" placeholder="Seu Nome Completo" required>
+                <input type="email" id="email" placeholder="Seu E-mail" required>
+                
+                <div class="input-group">
+                    <label for="data">Data Desejada:</label>
+                    <input type="date" id="data" required>
+                </div>
+
+                <select id="especialidade">
+                    <option value="clinico">Clínico Geral</option>
+                    <option value="cardio">Cardiologia</option>
+                    <option value="pediatria">Pediatria</option>
+                </select>
+                <button type="submit">Enviar Solicitação</button>
+            </form>
+            <p id="mensagem-sucesso" class="hidden">Obrigado! Entraremos em contato em breve.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-info">
+            <h3>Bio<span>Saúde</span></h3>
+            <p>Sua saúde é nossa prioridade.</p>
+        </div>
+        <div class="footer-contatos">
+            <p>📍 Av. Principal, 123 - Centro</p>
+            <p>📞 (11) 99999-9999</p>
+            <p>✉️ contato@biosaude.com.br</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2026 BioSaúde - Todos os direitos reservados.
+    </div>
+</footer>
+    
+
+<script src="script.js"></script>
+    
+</body>
+</html>
